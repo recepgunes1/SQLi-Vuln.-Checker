@@ -64,3 +64,6 @@ if __name__ == "__main__":
     except IndexError:
         print("Please Entry A Target File Name.\n")
         sys.exit()
+    except KeyboardInterrupt:
+        print("Good Bye :)\n")
+        sys.exit()
